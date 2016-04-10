@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Relative Layout Example</string>
+    <string name="action_settings">Settings</string>
+    <string name="redButton">Person #1</string>
+    <string name="greenButton">Person #2</string>
+    <string name="blueButton">Person #3</string>
+    <string name="rightTextView">This is right</string>
+    <string name="leftTextView">This is left</string>
+    <string name="middleTextView">This is middle</string>
+</resources>

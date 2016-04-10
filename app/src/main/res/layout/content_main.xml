@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="5dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginTop="5dp">
+
+    <Button
+        android:id="@+id/redButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:text="@string/redButton"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FF0000">
+    </Button>
+
+    <Button
+        android:id="@+id/greenButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/redButton"
+        android:layout_centerHorizontal="true"
+        android:text="@string/greenButton"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#008000">
+    </Button>
+
+    <TextView
+        android:id="@+id/middleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/greenButton"
+        android:layout_centerHorizontal="true"
+        android:text="@string/middleTextView">
+    </TextView>
+
+    <TextView
+        android:id="@+id/leftTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/greenButton"
+        android:layout_toLeftOf="@id/middleTextView"
+        android:paddingRight="15dp"
+        android:text="@string/leftTextView">
+    </TextView>
+
+    <TextView
+        android:id="@+id/rightTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/greenButton"
+        android:layout_toRightOf="@id/middleTextView"
+        android:paddingLeft="15dp"
+        android:text="@string/rightTextView">
+    </TextView>
+
+    <Button
+        android:id="@+id/blueButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/rightTextView"
+        android:text="@string/blueButton"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#0000FF">
+    </Button>
+
+
+</RelativeLayout>
